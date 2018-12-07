@@ -1,0 +1,22 @@
+<html>
+  <head>
+    <title>Crud</title>
+    <meta charset="utf-8">
+    <link href="css/style.css" >
+  </head>
+ <body>
+ 	<div>
+ 		<label>Country:</label>
+ 		  <input type="text" name="country" id="country_search" onkeyup="countryFind(this)">
+ 		 <label>Capital:</label>
+ 		   <input type="text" name="capital" id="capital_search" onkeyup="capitalFInd(this)">
+ 		   <br/>
+ 		   <input type="radio" name="type" value="Get" id="get"> Get<br>
+           <input type="radio" name="type" value="Post" id="post"> Post<br>
+           <input type="radio" name="type" value="Delete" id="delete"> Delete<br>
+           <input type="radio" name="type" value="Put" id="put">Update
+ 		   <button id="myBtn">Send</button>
+ 	</div>
+   <script src="js/main.js"></script>
+ </body>
+</html>
